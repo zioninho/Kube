@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warenkorb - Kube</title>
+    <link rel="stylesheet" href="Style2.css">
+    <header>
+        Kube – Warenkorb
+    </header>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="Kube.html">Home</a></li>
+            <li><a href="Streetwear.html">Streetwear</a></li>
+            <li><a href="Pants.html">Pants</a></li>
+            <li><a href="tshirts.html">T-Shirts</a></li>
+            <li><a href="jackets.html">Jackets</a></li>
+            <li><a href="others.html">Others</a></li>
+            <li><a href="Waren.html">Warenkorb</a></li>
+        </ul>
+    </nav>
+
+    <!-- Warenkorb-Inhalt -->
+    <section class="cart">
+        <h1>Ihr Warenkorb</h1>
+
+        <!-- Warenkorb Tabelle -->
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Artikel</th>
+                    <th>Preis</th>
+                    <th>Menge</th>
+                    <th>Gesamt</th>
+                    <th>Aktion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Beispielartikel -->
+                <tr>
+                    <td>Streetwear Hoodie</td>
+                    <td>€49.99</td>
+                    <td>
+                        <input type="number" value="1" min="1">
+                    </td>
+                    <td>€49.99</td>
+                    <td>
+                        <button class="remove-btn">Entfernen</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jeans</td>
+                    <td>€59.99</td>
+                    <td>
+                        <input type="number" value="1" min="1">
+                    </td>
+                    <td>€59.99</td>
+                    <td>
+                        <button class="remove-btn">Entfernen</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Gesamtbetrag -->
+        <div class="total">
+            <h3>Gesamtbetrag: <span>€109.98</span></h3>
+        </div>
+
+        <!-- Aktionen -->
+        <div class="cart-actions">
+            <button class="buy-btn">Kaufen</button>
+            <button class="cancel-btn">Abbrechen</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Kube Fashion. Alle Rechte vorbehalten.
+    </footer>
+
+</body>
+</html>
